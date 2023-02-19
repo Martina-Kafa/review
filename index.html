@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" href="./style.css">
+    <script src="./main.js"></script>
+    <link rel="stylesheet" >
+</head>
+
+<body>
+    
+
+<div class="container">
+    <div class="child-div-ocjena">
+        <button class="ocjena">4.25</button>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+    </div>
+    <div class="child-div">     
+        <h3>Test name</h3>
+        <h6>Croatia</h6>
+        <div class="child-div middle" id="middle">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ipsam dolore recusandae asperiores...</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores rerum voluptatem necessitatibus...</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ipsam dolore recusandae asperiores...</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores rerum voluptatem necessitatibus...</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ipsam dolore recusandae asperiores...</p>
+          </div>
+      <button class="show">Show all</button>
+    </div>
+    <button class="vote">Vote</button>
+</body>
+
+<style>
+    
+.vote {
+        width: 150px;
+        margin: 40px;
+    }
+span {
+        color: #D16B3E;
+    }
+
+.container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 400px;
+    }
+    
+.child-div {
+      margin: 20px;
+      padding: 5px;
+      /* background-color: #eee; */
+        width: 250px;
+      
+    }
+    
+button {
+      margin: 10px;
+      padding: 10px;
+      background-color: #405635;
+      color:#eee
+    }
+
+.ocjena {
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        border: none;
+        padding: 15px;
+        margin: 10px;
+    }
+
+h3, h6 {
+        padding: 0;
+        margin: 0;
+    
+    }
+
+.show, .star {
+        float: right;
+        margin-top: -20px;
+        margin-right: -10px;
+    }
+
+p {
+    margin-left: -25px;
+    padding: 0;
+    margin-top: -15px;
+}
+
+
+</style>
+  
+</html>
+  
