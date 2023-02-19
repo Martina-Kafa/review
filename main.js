@@ -1,4 +1,4 @@
-const middleDiv = document.getElementById("middle-div");
+//const middleDiv = document.getElementById("middle-div");
 const paragraphs = document.getElementsByTagName("p");
 let currentParagraphIndex = 0;
 
